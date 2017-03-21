@@ -25,9 +25,8 @@ function instagram(){
       userId: '1536428423',
       accessToken: '1536428423.a1c91ef.2ac9b8e2c4084c8fb4a374da05075277',
       resolution: 'standard_resolution',
-      links: false,
-      template: '<div><img src="{{image}}" /></div>',
-      after: instaCarousel
+      after: instaCarousel,
+      template: '<a target="_blank" href="{{link}}"><img src="{{image}}" /></a>'
     });
     feed.run();
   }
