@@ -110,11 +110,16 @@ iframe {
 
 .home .box-masonry:hover .box-masonry-text-hover {
   animation: slideTop 0.5s ease;
-  display: block;
+  transform: translateY(0%);
 }
 
 .home .box-masonry .box-masonry-text-hover {
-  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 1;
+  transform: translateY(100%);
 }
 
 .home img.cover {
