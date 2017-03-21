@@ -4,7 +4,7 @@ title = "Rates and Membership"
 url = "rates"
 class = "rates"
 home = true
-homeImg = "/img/logo-small.svg"
+homeImg = "/img/portfolio/pound.jpg"
 +++
 
 FabLab offers membership packages for regular users.

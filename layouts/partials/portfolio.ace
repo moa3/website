@@ -11,12 +11,12 @@
                   {{ if eq .Kind "section" }}
                     {{ range $i, $page := .Pages }}
                       {{ if and (isset $page.Params "image") .Params.image }}
-                        img.img-responsive src="{{ $page.Params.image }}" alt=""
+                        img.cover.img-responsive src="{{ $page.Params.image }}" alt=""
                       {{ end }}
                     {{ end }}
                   {{ else }}
                     {{ with .Params.homeImg }}
-                      img.img-responsive src="{{ . }}" alt=""
+                      img.cover.img-responsive src="{{ . }}" alt=""
                     {{ end}}
                   {{ end }}
                 .box-masonry-text

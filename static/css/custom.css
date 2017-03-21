@@ -1,10 +1,10 @@
 /* your styles go here */
 @keyframes rotater {
   0% {
-    -webkit-transform: rotate(0);
+    transform: rotate(0);
   }
   100% {
-    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -19,15 +19,6 @@
 iframe {
   width: 100%;
   border: none;
-}
-
-@keyframes slideTop {
-  from {
-    transform: translateY(0%);
-  }
-  to {
-    transform: translateY(-100%);
-  }
 }
 
 .list ul {
@@ -108,17 +99,25 @@ iframe {
   transition: all 0.2s ease-out;
 }
 
+@keyframes slideTop {
+  to {
+    transform: translateY(0%);
+  }
+  from {
+    transform: translateY(100%);
+  }
+}
+
 .home .box-masonry:hover .box-masonry-text {
-  transition: height 0.5s ease;
-  height: 50%;
-  z-index: 1;
+  animation: slideTop 0.5s ease;
+  display: block;
 }
 
 .home .box-masonry .box-masonry-text {
-  height: 0;
-  margin: auto;
-  position: absolute;
-  bottom: 0;
+  display: none;
+}
+
+.home img.cover {
+  object-fit: cover;
   width: 100%;
-  background-color: white;
 }
