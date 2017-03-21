@@ -1,0 +1,25 @@
+.col-xs-12.col-sm-6.col-md-8.col-lg-8.masonry-item.open-hours
+  .box-masonry
+    .box-masonry-text
+      h4 Opening hours
+      table.table.table-hover.table-responsive.table-condensed
+        thead
+          tr
+            th Day
+            th Time 
+        tbody
+          tr
+            td Monday
+            td 10am - 5pm
+          tr
+            td Tuesday
+            td 10am - 5pm
+          tr
+            td Wednesday
+            td 10am - 5pm
+          tr
+            td Thursday
+            td 10am - 8pm
+          tr
+            td Friday
+            td 10am - 2pm

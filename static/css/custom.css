@@ -108,16 +108,20 @@ iframe {
   }
 }
 
-.home .box-masonry:hover .box-masonry-text {
+.home .box-masonry:hover .box-masonry-text-hover {
   animation: slideTop 0.5s ease;
   display: block;
 }
 
-.home .box-masonry .box-masonry-text {
+.home .box-masonry .box-masonry-text-hover {
   display: none;
 }
 
 .home img.cover {
   object-fit: cover;
   width: 100%;
+}
+
+.home .open-hours h4 {
+  color: #000;
 }

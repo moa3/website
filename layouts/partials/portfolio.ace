@@ -19,10 +19,9 @@
                       img.cover.img-responsive src="{{ . }}" alt=""
                     {{ end}}
                   {{ end }}
-                .box-masonry-text
+                .box-masonry-text.box-masonry-text-hover
                   h4
                     a href="{{ .URL | urlize }}" {{ .Title }}
-                    .box-masonry-description
-                      blah
           {{ end }}
         {{ end }}
+        {{ partial "opening_hours.html" . }}
