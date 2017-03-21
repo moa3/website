@@ -4,7 +4,7 @@ title = "Get in touch"
 url = "contact"
 class = "contact"
 home = true
-homeImg = "/img/logo-small.svg"
+homeImg = "/img/portfolio/phone.jpg"
 +++
 
 <div class="contact-infos">
@@ -37,4 +37,3 @@ homeImg = "/img/logo-small.svg"
 </div>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.9315418713118!2d-3.2139940974345578!3d51.496123740453726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1b6918e35803%3A0x71dad8546c26f72b!2sMain+Hall%2C+Cardiff+CF5+2YB!5e0!3m2!1sfr!2suk!4v1490049856908" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-

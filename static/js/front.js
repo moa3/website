@@ -70,8 +70,8 @@ function workshopsCarousel() {
     loop: true,
     autoplay: true,
     autoHeight: true,
-    autoplaySpeed: 500,
-    autoplayTimeout: 1000
+    autoplaySpeed: 1000,
+    autoplayTimeout: 3000
   });
 }
 
@@ -83,9 +83,10 @@ function instaCarousel() {
     loop: true,
     autoplay: true,
     autoHeight: true,
-    autoplaySpeed: 500,
-    autoplayTimeout: 1000,
+    autoplaySpeed: 1000,
+    autoplayTimeout: 3000,
     responsiveClass:true,
+    autoplayHoverPause:true,
     responsive:{
         0:{
             items:1,
