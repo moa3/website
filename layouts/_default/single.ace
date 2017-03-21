@@ -1,0 +1,8 @@
+= content single
+  .col-xs-12.col-sm-8.col-md-9.content-column.white-background class={{ .Params.class }}
+    {{ partial "mobileNavToggle.html" . }}
+    .row
+      .col-lg-12
+        .content-column-content
+          h1 {{ .Title }}
+          {{ .Content }}

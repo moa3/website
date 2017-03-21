@@ -1,0 +1,13 @@
+= doctype html
+html lang={{ .Site.LanguageCode }}
+  head
+    {{ partial "head.html" . }}
+  body
+    #all
+      .container-fluid
+        .row.row-offcanvas.row-offcanvas-left
+          {{ partial "sidebar.html" . }}
+          = yield main
+          = yield list
+          = yield single
+    {{ partial "scripts.html" . }}

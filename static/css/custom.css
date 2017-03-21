@@ -1,0 +1,109 @@
+/* your styles go here */
+@keyframes rotater {
+  0% {
+    -webkit-transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+#sidebar .logo a:hover{
+  border: none;
+}
+
+#sidebar .logo img{
+  width: 100%;
+}
+
+iframe {
+  width: 100%;
+  border: none;
+}
+
+@keyframes slideTop {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.list ul {
+  list-style-type: none;
+}
+
+.workshops-home img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.center-loader {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.loader {
+  animation: rotater 5s linear infinite;
+  transform-origin: 50% 50%;
+  margin: 5px 0;
+}
+
+#instafeed.hideme {
+  min-height: 0px;
+}
+
+.rates table {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .contact .contact-infos {
+    flex-wrap: wrap;
+  }
+}
+
+.contact .contact-infos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact .contact-infos p {
+  width: 100%;
+}
+
+.contact .contact-infos a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .contact-infos a:hover span {
+  border-bottom: dotted 1px #42ad52;
+}
+
+.contact .contact-infos a:hover, .contact .contact-infos a:focus {
+  color: #42ad52;
+  border-color: #42ad52;
+  text-decoration: none;
+}
+
+.contact .contact-infos a:hover i {
+  color: #42ad52;
+  border-color: #42ad52;
+}
+
+.contact .contact-infos i, .contact .contact-infos a:focus i{
+  margin: 0 10px 10px 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+  font-size: 15px;
+  text-align: center;
+  vertical-align: bottom;
+  border: solid 1px #999999;
+  color: #999999;
+  transition: all 0.2s ease-out;
+}

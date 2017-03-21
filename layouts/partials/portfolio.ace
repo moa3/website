@@ -1,0 +1,26 @@
+.col-xs-12.col-sm-8.col-md-9.content-column class={{ .Kind }}
+  {{ partial "mobileNavToggle.html" . }}
+    .grid
+      .row
+        {{ partial "instafeed.html" . }}
+        {{ range .Site.Pages }}
+          {{ if .Params.home }}
+            .col-xs-12.col-sm-6.col-md-4.col-lg-4.masonry-item.masonry-sizer
+              .box-masonry class={{ .Params.class }}-home
+                {{ if eq .Kind "section" }}
+                  a.owl-carousel.box-masonry-image.with-hover-overlay.with-hover-icon href="{{ .URL | urlize }}" title=""
+                    {{ range $i, $page := .Pages }}
+                      {{ if and (isset $page.Params "image") .Params.image }}
+                        img.img-responsive src="{{ $page.Params.image }}" alt=""
+                      {{ end }}
+                    {{ end }}
+                {{ else }}
+                  {{ with .Params.homeImg }}
+                    img.img-responsive src="{{ . }}" alt=""
+                  {{ end}}
+                {{ end }}
+                .box-masonry-text
+                  h4
+                    a href="{{ .URL | urlize }}" {{ .Title }}
+          {{ end }}
+        {{ end }}

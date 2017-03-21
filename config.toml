@@ -1,0 +1,50 @@
+languageCode = "en-uk"
+title = "FabLab Cardiff"
+baseURL = "http://beta.fablabcardiff.com/"
+theme="hugo-creative-portfolio-theme"
+googleAnalytics = "UA-55621678-1"
+
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "green"
+  description = "FabLab Cardiff is a workshop open to the public where you can make just about anything. Use our 3D printers, laser cutters, vinyl cutters, cnc milling machines, as well as hand tools to realise your idea."
+  copyright = "&copy;2017 FabLab Cardiff"
+  sidebarAbout = [
+    "FabLab Cardiff is a creative space which enables people to make just about anything.",
+    "We focus on teaching you digital manufacturing technologies such as 3D printing and laser cutting, as well as the \"Internet of things\" which connects everyday objects to the internet.",
+    "Equipped with the latest in digital manufacturing technology that can be used by designers, artists and the public, as well as companies and other organisations.", 
+    "Interested? Pop in during our open Thursday between 1pm and 8pm!" 
+  ]
+
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "hello@fablabcardiff.com"
+
+  homeLinks = ["rates", "workshops"]
+
+  [[params.navlinks]]
+  name = "Booking"
+  url = "booking/"
+
+  [[params.navlinks]]
+  name = "Get in touch"
+  url = "contact/"
+
+  [params.social]
+  facebook      = "https://www.facebook.com/fablabcardiff"
+  email         = "hello@fablabcardiff.com"
+  twitter       = "https://twitter.com/fablabcardiff"
+  instagram     = "https://www.instagram.com/fablabcardiff/"
+  github        = "full profile url in github"
+  phone         = "+442920205572"
