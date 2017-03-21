@@ -99,6 +99,12 @@ function instaCarousel() {
         },
         1200:{
             items:5,
+        },
+        1600:{
+            items:8,
+        },
+        2000:{
+            items:10,
         }
     },
     onTranslated: function(e) {
@@ -108,7 +114,7 @@ function instaCarousel() {
       }
     },
     onTranslate: function() {
-      $('#instafeed').removeClass('hide');
+      $('#instafeed').removeClass('hideme');
       $('.center-loader').remove();
     }
   });

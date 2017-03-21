@@ -42,7 +42,7 @@ iframe {
 }
 
 #instafeed.hideme {
-  min-height: 0px;
+  height: 0px;
 }
 
 .rates table {
