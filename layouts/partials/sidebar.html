@@ -3,12 +3,7 @@
     <h1 class="sidebar-heading logo">
       <a href="/"><img src="/img/logo.svg" /></a>
     </h1>
-    <ul class="sidebar-menu">
-      {{ $url := .Site.BaseURL }}
-      {{ range .Site.Params.navlinks }}
-        <li><a href="{{ $url }}{{ .url }}">{{ .name }}</a></li>
-      {{ end }}
-    </ul>
+    {{ partial "nav.html" . }}
     {{ range .Site.Params.sidebarAbout }}
       <p class="sidebar-p">{{ . | safeHTML }}</p>
     {{ end }}

@@ -1,0 +1,24 @@
+{{ $url := .Site.BaseURL }}
+ul.sidebar-menu
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.main }}
+    {{ if .HasChildren }}
+      li.sub-menu
+        span class="{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}"
+          a href="{{.URL}}"
+            {{ .Pre }}
+            span {{ .Name }}
+            span.menu-arrow.arrow_carrot-right
+        ul.sub
+          {{ range .Children }}
+          li class="{{if $currentPage.IsMenuCurrent "main" . }}active{{end}}"
+            a href="{{.URL}}"
+              {{ .Name }}
+          {{ end }}
+    {{else}}
+      li class="{{if $currentPage.IsMenuCurrent "main" . }} active{{end}}"
+        a href="{{.URL}}"
+          {{ .Pre }}
+          span {{ .Name }}
+    {{end}}
+  {{end}}

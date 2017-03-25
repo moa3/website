@@ -4,6 +4,8 @@ image = "/img/workshops/video3Dprint.png"
 date = "2016-11-05T18:25:22+05:30"
 title = "3D printing crash course"
 weight = 0
+[menu.main]
+  parent= 'workshops'
 +++
 
 This 3 hr workshop is intended for beginners and will use a combination of taught presentation and hands on practice to allow participants to gain a basic understanding of 3D printing.

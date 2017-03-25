@@ -1,4 +1,8 @@
-/* your styles go here */
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
 @keyframes rotater {
   0% {
     transform: rotate(0);

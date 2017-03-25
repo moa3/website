@@ -4,6 +4,8 @@ image = "/img/workshops/3Dprint.jpg"
 date = "2017-02-21T18:30:00+01:00"
 title = "3D design for 3D printing taster"
 weight = 0
+[menu.main]
+  parent= 'workshops'
 +++
 
 This workshop will teach you the basics of an advanced 3D software package (SolidWorks). This workshop will teach participants two important modeling skills (free-form modeling and parametric modeling). The skills learned this workshop can be easily applied to create advanced 3D printable objects, such as objects with unique shapes.

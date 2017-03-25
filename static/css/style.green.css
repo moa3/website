@@ -368,14 +368,14 @@ SIDEBAR + RIGHT COLUMN
   margin: 0 5px 0 -15px;
   color: #999999;
 }
-.sidebar-menu li.active a {
+.sidebar-menu .active a {
   color: #42ad52;
   font-weight: bold;
 }
 .sidebar-menu li.active:before {
   color: #42ad52;
 }
-.sidebar-menu li:hover a {
+.sidebar-menu li a:hover {
   text-decoration: none;
   color: #42ad52;
 }

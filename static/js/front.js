@@ -6,7 +6,6 @@ $(function () {
   lightbox();
   carousels();
   utils();
-  highlightCurrentPage();
   instagram();
   workshopsCarousel();
   styleTables();
@@ -117,10 +116,6 @@ function instaCarousel() {
       $('.center-loader').remove();
     }
   });
-}
-
-function highlightCurrentPage() {
-  $("a[href='" + location.href + "']").parent().addClass("active");
 }
 
 /* =========================================

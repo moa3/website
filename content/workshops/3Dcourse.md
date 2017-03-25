@@ -4,6 +4,8 @@ image = "/img/workshops/3DCAD.jpg"
 date = "2016-11-05T18:25:22+05:30"
 title = "3D modelling for 3D printing 5 week course"
 weight = 0
+[menu.main]
+  parent= 'workshops'
 +++
 
 During this short 5 week course you will be introduced to 3D modelling for 3D printing, and how CAD (SolidWorks) is used in this.

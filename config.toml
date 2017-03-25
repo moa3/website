@@ -4,6 +4,12 @@ baseURL = "http://beta.fablabcardiff.com/"
 theme="hugo-creative-portfolio-theme"
 googleAnalytics = "UA-55621678-1"
 
+[[menu.main]]
+  name = "home"
+  identifier = "home"
+  url = "/"
+  weight = -100
+
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling
@@ -32,14 +38,6 @@ googleAnalytics = "UA-55621678-1"
   email = "hello@fablabcardiff.com"
 
   homeLinks = ["rates", "workshops"]
-
-  [[params.navlinks]]
-  name = "Booking"
-  url = "booking/"
-
-  [[params.navlinks]]
-  name = "Get in touch"
-  url = "contact/"
 
   [params.social]
   facebook      = "https://www.facebook.com/fablabcardiff"

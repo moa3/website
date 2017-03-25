@@ -4,6 +4,8 @@ image = "/img/workshops/laser_taster.jpg"
 date = "2016-11-05T18:25:22+05:30"
 title = "Laser Cutting Taster"
 weight = 0
+[menu.main]
+  parent= 'workshops'
 +++
 
 This one-session Saturday morning class will introduce participants to medium-power laser cutting technology – how it works, the variety of materials that can be cut and/or engraved, relevant safety standards, how computer files can be prepared for cutting, sending a file to the laser-cutter and initiating the cutting and how much it all costs.

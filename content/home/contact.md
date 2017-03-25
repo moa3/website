@@ -5,6 +5,9 @@ url = "contact"
 class = "contact"
 home = true
 homeImg = "/img/portfolio/phone.jpg"
+[menu.main]
+  name = "Get In Touch"
+  weight = -90
 +++
 
 <div class="contact-infos">
