@@ -3,6 +3,14 @@ body {
   margin: 0 auto;
 }
 
+.small-navbar.visible-xs {
+  padding: 10px 5px;
+}
+
+.small-navbar.visible-xs img {
+  height: 40px;
+}
+
 @keyframes rotater {
   0% {
     transform: rotate(0);

@@ -1,0 +1,5 @@
+.small-navbar.visible-xs.navbar-default.navbar-fixed-top
+  button.btn.btn-ghost.pull-left type="button" data-toggle="offcanvas"
+    i.fa.fa-align-left Menu
+  a.small-navbar-heading href="/"
+    img src="/img/logo.svg"
