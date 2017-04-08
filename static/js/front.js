@@ -2,7 +2,6 @@ var masonryGrid;
 
 $(function () {
   masonryGrid = masonry();
-  offCanvas();
   lightbox();
   carousels();
   utils();
@@ -152,20 +151,6 @@ function masonry() {
         $grid.masonry('layout');
     });
     return $grid;
-}
-
-/* =========================================
- *  Off-canvas menu
- *  =======================================*/
-
-function offCanvas() {
-
-    $(document).ready(function () {
-        $('[data-toggle="offcanvas"]').click(function () {
-            $('.row-offcanvas').toggleClass('active')
-        });
-    });
-
 }
 
 
