@@ -99,9 +99,6 @@ function instaCarousel() {
         },
         1600:{
             items:8,
-        },
-        2000:{
-            items:10,
         }
     },
     onTranslated: function(e) {
