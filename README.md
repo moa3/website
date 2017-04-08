@@ -10,4 +10,4 @@ docker run --rm -it -v $PWD:/src -u hugo jguyomard/hugo-builder:0.19 hugo
 
 # Deploy
 
-scp -r public/* fablab@rapadura:site/
+rsync -raz --exclude '.*.swp' --progress public/* fablab@fablabcardiff.com:site/
