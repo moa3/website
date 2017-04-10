@@ -1,6 +1,6 @@
 languageCode = "en-uk"
 title = "FabLab Cardiff"
-baseURL = "http://fablabcardiff.com/"
+baseURL = "https://fablabcardiff.com/"
 theme="hugo-creative-portfolio-theme"
 googleAnalytics = "UA-55621678-1"
 
