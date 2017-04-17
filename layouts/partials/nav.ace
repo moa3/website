@@ -10,7 +10,7 @@ ul.sidebar-menu
             span {{ .Name }}
             span.menu-arrow.arrow_carrot-right
         ul.sub
-          {{ range .Children }}
+          {{ range .Children.ByWeight }}
           li class="{{if $currentPage.IsMenuCurrent "main" . }}active{{end}}"
             a href="{{.URL}}"
               {{ .Name }}

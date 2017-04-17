@@ -1,16 +1,16 @@
 +++
 draft = false
 image = "/img/workshops/video3Dprint.png"
-date = "2016-11-05T18:25:22+05:30"
+date = "2017-05-09T18:30:00+01:00"
 title = "3D printing crash course"
-weight = 0
+weight = 1
 [menu.main]
   parent= 'workshops'
 +++
 
 This 3 hr workshop is intended for beginners and will use a combination of taught presentation and hands on practice to allow participants to gain a basic understanding of 3D printing.
 
- - Date: Tuesday 28 February 2017, 6.30pm – 9.30pm
+ - Date: Tuesday 9th May 2017, 6.30pm – 9.30pm
  - Course length: 1 week
  - Price: £35 (£31.50 for students)
  - Tutor: Rhys John
