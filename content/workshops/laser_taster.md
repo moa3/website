@@ -12,7 +12,7 @@ This one-session Saturday morning class will introduce participants to medium-po
 
  - Date: Saturday 24th June 2017, 10.30-13.30
  - Course length: 1 morning
- - Price: £25 (£19.20 for students)
+ - Price: £35 (£28 for students)
  - Tutor: Kevin Karney
  - Level: Beginner
  - Campus: Llandaff Campus, B Block
