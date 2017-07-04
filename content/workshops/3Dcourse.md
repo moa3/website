@@ -1,8 +1,8 @@
 +++
 draft = false
 image = "/img/workshops/3DCAD.jpg"
-date = "2017-05-23T18:30:00+01:00"
-title = "3D modelling for 3D printing 5 week course"
+date = "2017-08-01T18:30:00+01:00"
+title = "Solidworks and 3D printing 5 week course"
 weight = 3
 [menu.main]
   parent= 'workshops'
@@ -10,7 +10,7 @@ weight = 3
 
 During this short 5 week course you will be introduced to 3D modelling for 3D printing, and how CAD (SolidWorks) is used in this.
 
- - Date: Tuesday 23d May 2017, 6.30pm – 9.30pm
+ - Date: Tuesday 1st August 2017, 6.30pm – 9.30pm
  - Course length: 5 weeks
  - Price: £150 (£135.00 for students)
  - Tutor: Rhys John

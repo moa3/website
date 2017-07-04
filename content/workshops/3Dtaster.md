@@ -1,7 +1,7 @@
 +++
 draft = false
 image = "/img/workshops/3Dprint.jpg"
-date = "2017-05-16T18:30:00+01:00"
+date = "2017-07-18T18:30:00+01:00"
 title = "3D design for 3D printing taster"
 weight = 2
 [menu.main]
@@ -10,7 +10,7 @@ weight = 2
 
 This workshop will teach you the basics of an advanced 3D software package (SolidWorks). This workshop will teach participants two important modeling skills (free-form modeling and parametric modeling). The skills learned this workshop can be easily applied to create advanced 3D printable objects, such as objects with unique shapes.
 
- - Date: Tuesday 16th May 2017, 6.30pm – 9.30pm
+ - Date: Tuesday 18th July 2017, 6.30pm – 9.30pm
  - Course length: 1 week
  - Price: £35 (£31.50 for students)
  - Tutor: Rhys John
