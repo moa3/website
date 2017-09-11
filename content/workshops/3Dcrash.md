@@ -1,8 +1,8 @@
 +++
 draft = false
 image = "/img/workshops/video3Dprint.png"
-date = "2017-07-11T18:30:00+01:00"
-title = "CAD Taster"
+date = "2017-10-03T18:30:00+01:00"
+title = "3D printing taster"
 weight = 1
 [menu.main]
   parent= 'workshops'
@@ -10,8 +10,8 @@ weight = 1
 
 This 3 hr workshop is intended for beginners and will use a combination of taught presentation and hands on practice to allow participants to gain a basic understanding of 3D printing.
 
- - Date: Tuesday 11th July 2017, 6.30pm – 9.30pm
- - Course length: 1 week
+ - Date: Tuesday 3d October 2017, 6.30pm – 9.30pm
+ - Course length: 1 session
  - Price: £35 (£31.50 for students)
  - Tutor: Rhys John
  - Level: Beginner
