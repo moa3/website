@@ -4,7 +4,7 @@ title = "Get in touch"
 url = "contact"
 class = "contact"
 home = true
-homeImg = "/img/portfolio/phone.jpg"
+homeImg = "/img/portfolio/phone.png"
 [menu.main]
   name = "Get In Touch"
   weight = -90
@@ -14,6 +14,12 @@ homeImg = "/img/portfolio/phone.jpg"
   <p>
     <a target="_blank" href="https://goo.gl/maps/Q4uKconY3yD2" data-animate-hover="pulse">
       <i class="fa fa-map-marker"></i>
+      <span>
+      Cardiff Metropolitan University
+      </span>
+      <span>
+      School of Art and Design
+      </span>
       <span>
       B Block, Cardiff, CF5 2YB, UK
       </span>

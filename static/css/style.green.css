@@ -322,7 +322,7 @@ SIDEBAR + RIGHT COLUMN
 
 */
 #sidebar {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 @media screen and (min-width: 992px) {
   .sidebar-content {
@@ -383,7 +383,7 @@ SIDEBAR + RIGHT COLUMN
   color: #42ad52;
 }
 .content-column {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .content-column.white-background {
   background: #fff;

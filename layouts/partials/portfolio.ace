@@ -25,3 +25,4 @@
           {{ end }}
         {{ end }}
         {{ partial "opening_hours.html" . }}
+        {{ partial "met_logo.html" . }}

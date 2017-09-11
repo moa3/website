@@ -1,7 +1,6 @@
 body {
   max-width: 1600px;
   margin: 0 auto;
-  padding-top: 50px;
 }
 
 .small-navbar.visible-xs img {
@@ -138,3 +137,8 @@ iframe {
 .home .open-hours h4 {
   color: #000;
 }
+
+.home .metlogo  .box-masonry {
+  background-color: #42ad52;
+}
+

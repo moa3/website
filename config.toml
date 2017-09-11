@@ -17,7 +17,7 @@ googleAnalytics = "UA-55621678-1"
   description = "FabLab Cardiff is a workshop open to the public where you can make just about anything. Use our 3D printers, laser cutters, vinyl cutters, cnc milling machines, as well as hand tools to realise your idea."
   copyright = "&copy;2017 FabLab Cardiff"
   sidebarAbout = [
-    "FabLab Cardiff is a creative space which enables people to make just about anything.",
+    "FabLab Cardiff, located in Cardiff Metropolitan University's School of Art and Design, is a creative space which enables people to make just about anything.",
     "We focus on teaching you digital manufacturing technologies such as 3D printing and laser cutting, as well as the \"Internet of things\" which connects everyday objects to the internet.",
     "Equipped with the latest in digital manufacturing technology that can be used by designers, artists and the public, as well as companies and other organisations.", 
     "Interested? Pop in during our open Thursday between 1pm and 8pm!" 
