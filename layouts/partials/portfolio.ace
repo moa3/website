@@ -1,11 +1,12 @@
 .col-xs-12.col-sm-8.col-md-9.content-column class={{ .Kind }}
   {{ partial "mobileNavToggle.html" . }}
-    .grid
+    .masonry-grid
       .row
         {{ partial "instafeed.html" . }}
+        .col-xs-12.col-sm-6.col-md-4.col-lg-4.masonry-item.grid-sizer
         {{ range .Site.Pages }}
           {{ if .Params.home }}
-            .col-xs-12.col-sm-6.col-md-4.col-lg-4.masonry-item.masonry-sizer
+            .col-xs-12.col-sm-6.col-md-4.col-lg-4.masonry-item
               .box-masonry class={{ .Params.class }}-home
                 a.owl-carousel.box-masonry-image.with-hover-overlay.with-hover-icon href="{{ .URL | urlize }}" title=""
                   {{ if eq .Kind "section" }}

@@ -138,10 +138,10 @@ function carousels() {
 
 function masonry() {
 
-    var $grid = $('.grid').masonry({
+    var $grid = $('.masonry-grid').masonry({
         itemSelector: ".masonry-item",
         percentPosition: true,
-        columnWidth: '.masonry-sizer'
+        columnWidth: '.grid-sizer'
     });
 
     $grid.imagesLoaded().progress(function () {

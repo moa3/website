@@ -1,19 +1,18 @@
 = content list
-  .col-xs-12.col-sm-8.col-md-9.content-column.white-background
+  .col-xs-12.col-sm-8.col-md-9.content-column
     {{ partial "mobileNavToggle.html" . }}
-    .list.row
-      .col-lg-12
+    .masonry-grid
+      .row
+        .col-xs-12.col-sm-6.col-md-4.col-lg-3.masonry-item.grid-sizer
         {{ range (where .Data.Pages.ByDate "Section" "workshops") }}
-          col-xs-12.col-sm-6.col-md-4.col-lg-3.masonry-item
+          .col-xs-12.col-sm-6.col-md-4.col-lg-3.masonry-item
             .box-masonry
-              {{ if and (isset .Params "image") .Params.image }}
-                a.box-masonry-image.with-hover-overlay.with-hover-icon href={{ .Permalink }}
-                  img.img-responsive src={{ .Params.image }}
-                .box-masonry-text
-                  {{ if .Title }}
-                    h4
-                      a href={{ .Permalink }}
-                        {{ .Title }}
-                  {{ end }}
-              {{ end }}
+              a.box-masonry-image.with-hover-overlay.with-hover-icon href={{ .Permalink }}
+                img.img-responsive src={{ if and (isset .Params "image") .Params.image }}{{ .Params.image }}{{ else }}/img/workshops/default.jpg{{ end }}
+              .box-masonry-text
+                {{ if .Title }}
+                  h4
+                    a href={{ .Permalink }}
+                      {{ .Title }}
+                {{ end }}
         {{ end }}
