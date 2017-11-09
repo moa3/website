@@ -1,7 +1,7 @@
 +++
 draft = false
 image = "/img/workshops/laser_taster.jpg"
-date = "2017-10-28T10:30:00+01:00"
+date = "2018-01-13T10:30:00+01:00"
 title = "Laser Cutting Taster"
 weight = 4
 [menu.main]
@@ -10,7 +10,7 @@ weight = 4
 
 This one-session Saturday morning class will introduce participants to medium-power laser cutting technology – how it works, the variety of materials that can be cut and/or engraved, relevant safety standards, how computer files can be prepared for cutting, sending a file to the laser-cutter and initiating the cutting and how much it all costs.
 
- - Date: Saturday 28th October 2017, 10.30-13.30
+ - Date: Saturday 13th January 2018, 10.30-13.30
  - Course length: 1 morning
  - Price: £35 (£28 for students)
  - Tutor: Kevin Karney
